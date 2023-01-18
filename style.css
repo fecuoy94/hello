@@ -1,0 +1,27 @@
+p {
+    color: blue;
+}
+.center {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    
+}
+img {
+    border: 10px solid black;
+    margin: auto
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    animation: my-animation 2s ease-in-out;
+
+}
+
+@keyframes my-animation {
+    from {transform: scale(1)}
+    to {transform: scale(1.2)}
+}
